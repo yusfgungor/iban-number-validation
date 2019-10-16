@@ -39,4 +39,4 @@ const validateIban = (ibanValue) => {
   console.error("iban value must be a string");
 }
 
-export default validateIban;
+module.exports = validateIban;
