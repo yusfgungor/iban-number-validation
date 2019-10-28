@@ -2,7 +2,7 @@
   "name": "ibanvalidation",
   "version": "1.0.0",
   "description": "This function can be used to verify all iban numbers.",
-  "main": "ibanValidation.js",
+  "main": "src/ibanValidation.js",
   "scripts": {
     "test": "jest"
   },

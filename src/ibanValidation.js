@@ -32,11 +32,11 @@ const validateIban = (ibanValue) => {
     const ibanCharactersLocationsChanged = setCharactersLocations(ibanValue); // 0000100100000350930001TR47
     const ibanCharactersMatchAndChanged = charactersMatchAndChange(ibanCharactersLocationsChanged); // 0000100100000350930001292747
     const result = getMod9710(ibanCharactersMatchAndChanged) === MOD_MUST_EQUAL_TO_ONE ? true : false; // getMod9710(ibanCharactersMatchAndChanged) = 1
-
+    
     return !!result;
   }
 
   console.error("iban value must be a string");
 }
 
-module.exports = validateIban;
+export default validateIban;

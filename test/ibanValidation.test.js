@@ -1,4 +1,4 @@
-const ibanValidation = require('./ibanValidation');
+import ibanValidation from '../src/ibanValidation.js';
 
 const validIbans = [
   {iban: 'TR470000100100000350930001', country: 'Turkey'},
@@ -161,26 +161,30 @@ const notValidIbans = [
   {iban: 'VG21PACG0005000123456789', country: 'Virgin Islands, British'}
 ];
 
-validIbans.map((item) => {
-  test(`Iban number of ${item.country} is valid'`, () => {
-    expect(ibanValidation(item.iban)).toBe(true);
-  });  
-});
+console.log(ibanValidation);
 
-notValidIbans.map((item) => {
-  test(`Iban number of ${item.country} is not valid'`, () => {
-    expect(ibanValidation(item.iban)).toBe(false);
-  });  
-});
+if (ibanValidation) {
+  validIbans.map((item) => {
+    test(`Iban number of ${item.country} is valid'`, () => {
+      expect(ibanValidation(item.iban)).toBe(true);
+    });  
+  });
 
-test('The number of non-string 123 must be undefined', () => {
-  expect(ibanValidation(123)).toBe(undefined);
-});
+  notValidIbans.map((item) => {
+    test(`Iban number of ${item.country} is not valid'`, () => {
+      expect(ibanValidation(item.iban)).toBe(false);
+    });  
+  });
 
-test('Object must be undefined', () => {
-  expect(ibanValidation({ibanNumber: 'VG21PACG0005000123456789'})).toBe(undefined);
-});
+  test('The number of non-string 123 must be undefined', () => {
+    expect(ibanValidation(123)).toBe(undefined);
+  });
 
-test('Array must be undefined', () => {
-  expect(ibanValidation(['VG21PACG0005000123456789'])).toBe(undefined);
-});
+  test('Object must be undefined', () => {
+    expect(ibanValidation({ibanNumber: 'VG21PACG0005000123456789'})).toBe(undefined);
+  });
+
+  test('Array must be undefined', () => {
+    expect(ibanValidation(['VG21PACG0005000123456789'])).toBe(undefined);
+  });
+}
