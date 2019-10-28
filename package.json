@@ -1,0 +1,26 @@
+{
+  "name": "ibanvalidation",
+  "version": "1.0.0",
+  "description": "This function can be used to verify all iban numbers.",
+  "main": "src/ibanValidation.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusfgungor/ibanValidation.git"
+  },
+  "keywords": [
+    "#iban",
+    "#ibanValidator"
+  ],
+  "author": "@yusfgungor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusfgungor/ibanValidation/issues"
+  },
+  "homepage": "https://github.com/yusfgungor/ibanValidation#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
