@@ -1,5 +1,5 @@
 {
-  "name": "ibanvalidation",
+  "name": "iban-number-validation",
   "version": "1.0.0",
   "description": "This function can be used to verify all iban numbers.",
   "main": "src/ibanValidation.js",
@@ -9,18 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yusfgungor/ibanValidation.git"
+    "url": "git+https://github.com/yusfgungor/iban-number-validation.git"
   },
   "keywords": [
     "#iban",
-    "#ibanValidator"
+    "#iban-validator",
+    "#iban-number",
+    "#iban-number-validator",
+    "#validate-iban"
   ],
   "author": "@yusfgungor",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yusfgungor/ibanValidation/issues"
+    "url": "https://github.com/yusfgungor/iban-number-validation/issues"
   },
-  "homepage": "https://github.com/yusfgungor/ibanValidation#readme",
+  "homepage": "https://github.com/yusfgungor/iban-number-validation#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
