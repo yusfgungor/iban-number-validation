@@ -1,5 +1,5 @@
 {
-  "name": "ibanvalidation",
+  "name": "iban-number-validation",
   "version": "1.0.0",
   "description": "This function can be used to verify all iban numbers.",
   "main": "src/ibanValidation.js",
@@ -13,7 +13,10 @@
   },
   "keywords": [
     "#iban",
-    "#ibanValidator"
+    "#iban-validator",
+    "#iban-number",
+    "#iban-number-validator",
+    "#validate-iban"
   ],
   "author": "@yusfgungor",
   "license": "ISC",
