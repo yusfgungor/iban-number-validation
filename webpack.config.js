@@ -2,9 +2,9 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/ibanValidation.js',
+  entry: './src/iban-number-validation.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'ibanValidation.min.js'
+    filename: 'iban-number-validation.min.js'
   }
 };

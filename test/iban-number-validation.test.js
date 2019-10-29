@@ -1,4 +1,4 @@
-import ibanValidation from '../src/ibanValidation.js';
+import ibanValidation from '../src/iban-number-validation.js';
 
 const validIbans = [
   {iban: 'TR470000100100000350930001', country: 'Turkey'},
