@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yusfgungor/ibanValidation.git"
+    "url": "git+https://github.com/yusfgungor/iban-number-validation.git"
   },
   "keywords": [
     "#iban",
@@ -21,9 +21,9 @@
   "author": "@yusfgungor",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yusfgungor/ibanValidation/issues"
+    "url": "https://github.com/yusfgungor/iban-number-validation/issues"
   },
-  "homepage": "https://github.com/yusfgungor/ibanValidation#readme",
+  "homepage": "https://github.com/yusfgungor/iban-number-validation#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
