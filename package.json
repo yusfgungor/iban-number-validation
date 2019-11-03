@@ -1,6 +1,6 @@
 {
   "name": "iban-number-validation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This function can be used to verify all iban numbers.",
   "main": "src/iban-number-validation.js",
   "scripts": {
